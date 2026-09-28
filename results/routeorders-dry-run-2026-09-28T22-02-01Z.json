@@ -1,0 +1,192 @@
+{
+  "ProcessId": "9cf35ec2-af92-4f80-89f8-ca8f48cc093e",
+  "AssignedOrders": [
+    {
+      "Order": {
+        "Id": "fd3fdc5f-c928-4c6a-85aa-0700e58c6b5d",
+        "ShipToLocationCode": "SR-US-Miami-Brickell",
+        "ShipToCountryCode": "US",
+        "CustomMadeOrderItems": [
+          {
+            "Id": "1cf20261-b719-4206-b3ad-e4dd7ed308ed",
+            "ProductTypeId": "CMTM Jacket",
+            "ConfigurationId": "304d428c-f4aa-4e1e-b09d-d09040147b41",
+            "ConfigurationDetailId": "bee5b5b6-ae61-4c30-87e3-6f97b2849ba0",
+            "ReferenceNumber": "PSUS03194448",
+            "ReferenceDetailNumber": "1",
+            "ReferenceType": "MaoB2C",
+            "FactoryCode": "FACT-6F82A",
+            "FabricCode": "734801/3",
+            "ExpectedFabricConsumptionAmount": 2.2,
+            "BatchNumber": "PSUS03194448_1",
+            "ProductionCapableFactoryCodes": [
+              "FACT-B2107",
+              "FACT-9EF1A",
+              "FACT-6F82A"
+            ]
+          },
+          {
+            "Id": "51c2e9a4-3896-43a6-b589-391f7b2fb06b",
+            "ProductTypeId": "CMTM Trousers",
+            "ConfigurationId": "304d428c-f4aa-4e1e-b09d-d09040147b41",
+            "ConfigurationDetailId": "f7f3987c-5607-4778-88de-1730bd6c7b50",
+            "ReferenceNumber": "PSUS03194448",
+            "ReferenceDetailNumber": "2",
+            "ReferenceType": "MaoB2C",
+            "FactoryCode": "FACT-6F82A",
+            "FabricCode": "734801/3",
+            "ExpectedFabricConsumptionAmount": 1.6,
+            "BatchNumber": "PSUS03194448_2",
+            "ProductionCapableFactoryCodes": [
+              "FACT-B2107",
+              "FACT-9EF1A",
+              "FACT-6F82A"
+            ]
+          }
+        ]
+      },
+      "AssignmentCheckResults": [
+        {
+          "Success": true,
+          "FabricNotAvailableResult": [],
+          "FactoryCapacityNotAvailableResult": [],
+          "FailureReason": 0,
+          "FactoryCode": "FACT-6F82A"
+        }
+      ]
+    },
+    {
+      "Order": {
+        "Id": "3a189c42-d2e6-4435-9a95-53fefa0a293d",
+        "ShipToLocationCode": "SR-US-Atlanta-Lenox",
+        "ShipToCountryCode": "US",
+        "CustomMadeOrderItems": [
+          {
+            "Id": "96e0a2f5-ca76-4ec5-a384-415ecb47c1a6",
+            "ProductTypeId": "CMTM Jacket",
+            "ConfigurationId": "d4d61280-fc02-4fce-8581-376b1e79606e",
+            "ConfigurationDetailId": "e6070937-1a22-4a58-9490-17dd4be27a00",
+            "ReferenceNumber": "PSUS03194436",
+            "ReferenceDetailNumber": "1",
+            "ReferenceType": "MaoB2C",
+            "FactoryCode": "FACT-B2107",
+            "FabricCode": "711302/377",
+            "ExpectedFabricConsumptionAmount": 2.2,
+            "BatchNumber": "PSUS03194436_1",
+            "ProductionCapableFactoryCodes": [
+              "FACT-B2107",
+              "FACT-9EF1A",
+              "FACT-6F82A"
+            ]
+          },
+          {
+            "Id": "dad0f79a-b64b-47c3-8873-bbe37bf1428c",
+            "ProductTypeId": "CMTM Trousers",
+            "ConfigurationId": "d4d61280-fc02-4fce-8581-376b1e79606e",
+            "ConfigurationDetailId": "3f81023f-3dba-4b2d-8efb-93464f4a516e",
+            "ReferenceNumber": "PSUS03194436",
+            "ReferenceDetailNumber": "2",
+            "ReferenceType": "MaoB2C",
+            "FactoryCode": "FACT-B2107",
+            "FabricCode": "711302/377",
+            "ExpectedFabricConsumptionAmount": 1.6,
+            "BatchNumber": "PSUS03194436_2",
+            "ProductionCapableFactoryCodes": [
+              "FACT-B2107",
+              "FACT-9EF1A",
+              "FACT-6F82A"
+            ]
+          },
+          {
+            "Id": "a5be0cdf-c0ec-4ab5-a4b0-36f7ef53d098",
+            "ProductTypeId": "CMTM Waistcoat",
+            "ConfigurationId": "d4d61280-fc02-4fce-8581-376b1e79606e",
+            "ConfigurationDetailId": "1eb32d2f-f504-434b-bdb1-5ac64e94bf2a",
+            "ReferenceNumber": "PSUS03194436",
+            "ReferenceDetailNumber": "3",
+            "ReferenceType": "MaoB2C",
+            "FactoryCode": "FACT-B2107",
+            "FabricCode": "711302/377",
+            "ExpectedFabricConsumptionAmount": 1.1,
+            "BatchNumber": "PSUS03194436_3",
+            "ProductionCapableFactoryCodes": [
+              "FACT-B2107",
+              "FACT-9EF1A",
+              "FACT-6F82A"
+            ]
+          }
+        ]
+      },
+      "AssignmentCheckResults": [
+        {
+          "Success": false,
+          "FabricNotAvailableResult": [],
+          "FactoryCapacityNotAvailableResult": [],
+          "FailureReason": 7,
+          "FactoryCode": "FACT-6F82A"
+        },
+        {
+          "Success": true,
+          "FabricNotAvailableResult": [],
+          "FactoryCapacityNotAvailableResult": [],
+          "FailureReason": 0,
+          "FactoryCode": "FACT-B2107"
+        }
+      ]
+    }
+  ],
+  "UnassignedOrdersDueToFabricNotAvailable": [],
+  "FabricMoveRequirements": [],
+  "OrderRoutingSummary": [
+    {
+      "Description": "All Suitsupply Orders",
+      "TotalOrderItemCount": 5,
+      "Percentage": 100.0,
+      "JacketOrderItemCount": 2,
+      "TrousersOrderItemCount": 2,
+      "WaistcoatOrderItemCount": 1
+    },
+    {
+      "Description": "Jyy",
+      "TotalOrderItemCount": 2,
+      "Percentage": 40.0,
+      "JacketOrderItemCount": 1,
+      "TrousersOrderItemCount": 1,
+      "WaistcoatOrderItemCount": 0
+    },
+    {
+      "Description": "Aoshi",
+      "TotalOrderItemCount": 3,
+      "Percentage": 60.0,
+      "JacketOrderItemCount": 1,
+      "TrousersOrderItemCount": 1,
+      "WaistcoatOrderItemCount": 1
+    },
+    {
+      "Description": "Not assigned (Fabric not avaialble)",
+      "TotalOrderItemCount": 0,
+      "Percentage": 0.0,
+      "JacketOrderItemCount": 0,
+      "TrousersOrderItemCount": 0,
+      "WaistcoatOrderItemCount": 0
+    },
+    {
+      "Description": "Not assigned (Data/ Dev issue)",
+      "TotalOrderItemCount": 0,
+      "Percentage": 0.0,
+      "JacketOrderItemCount": 0,
+      "TrousersOrderItemCount": 0,
+      "WaistcoatOrderItemCount": 0
+    },
+    {
+      "Description": "Assignment skipped",
+      "TotalOrderItemCount": 0,
+      "Percentage": 0.0,
+      "JacketOrderItemCount": 0,
+      "TrousersOrderItemCount": 0,
+      "WaistcoatOrderItemCount": 0
+    }
+  ],
+  "OrderAssignmentFailures": [],
+  "SkippedOrders": []
+}
