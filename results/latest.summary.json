@@ -1,0 +1,68 @@
+{
+  "processId": "af95fc19-5a91-454c-8b83-e7a1be931428",
+  "fetchedAtUtc": "2026-10-01T21:46:27Z",
+  "httpStatus": 200,
+  "endpoint": "/api/v1/routeorders-dry-run",
+  "factoryCodes": [
+    "FACT-B2107",
+    "FACT-6F82A"
+  ],
+  "sendNotification": false,
+  "counts": {
+    "assignedOrders": 190,
+    "unassignedOrdersDueToFabricNotAvailable": 64,
+    "fabricMoveRequirements": 0,
+    "orderAssignmentFailures": 62,
+    "skippedOrders": 0
+  },
+  "orderRoutingSummary": [
+    {
+      "Description": "All Suitsupply Orders",
+      "TotalOrderItemCount": 611,
+      "Percentage": 100.0,
+      "JacketOrderItemCount": 269,
+      "TrousersOrderItemCount": 309,
+      "WaistcoatOrderItemCount": 33
+    },
+    {
+      "Description": "Jyy",
+      "TotalOrderItemCount": 253,
+      "Percentage": 41.41,
+      "JacketOrderItemCount": 103,
+      "TrousersOrderItemCount": 133,
+      "WaistcoatOrderItemCount": 17
+    },
+    {
+      "Description": "Aoshi",
+      "TotalOrderItemCount": 87,
+      "Percentage": 14.24,
+      "JacketOrderItemCount": 36,
+      "TrousersOrderItemCount": 47,
+      "WaistcoatOrderItemCount": 4
+    },
+    {
+      "Description": "Not assigned (Fabric not avaialble)",
+      "TotalOrderItemCount": 105,
+      "Percentage": 17.18,
+      "JacketOrderItemCount": 47,
+      "TrousersOrderItemCount": 53,
+      "WaistcoatOrderItemCount": 5
+    },
+    {
+      "Description": "Not assigned (Data/ Dev issue)",
+      "TotalOrderItemCount": 145,
+      "Percentage": 23.73,
+      "JacketOrderItemCount": 73,
+      "TrousersOrderItemCount": 65,
+      "WaistcoatOrderItemCount": 7
+    },
+    {
+      "Description": "Assignment skipped",
+      "TotalOrderItemCount": 0,
+      "Percentage": 0.0,
+      "JacketOrderItemCount": 0,
+      "TrousersOrderItemCount": 0,
+      "WaistcoatOrderItemCount": 0
+    }
+  ]
+}
